@@ -59,7 +59,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 */
 String SensorNames[] = {"MQ135 Gas Sensor","Seeed Airquality","Seeed HumTemp","K30 CO2 sensor","Thermistor", "Conductivity", "Sound"};
 const int SensorPins[] = {A0, A0, A0, 0, A0, A0, A0}; 
-String SensorUnits[] = {" / 1024", " / 1024", "", " ppm", " *C", " / 1024 Res", " / 1024"};
+String SensorUnits[] = {" / 1024", " / 1024", "", " ppm", " *C", " / 1024 Res", " / 502"};
 /* *******************************************************
 */
 
